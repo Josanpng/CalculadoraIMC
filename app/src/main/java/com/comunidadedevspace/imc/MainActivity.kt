@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
                         edtPeso,
                         "Preencha todos os campos",
                         Snackbar.LENGTH_LONG
-                        )
-                        .show()
+                    )
+                    .show()
 
             } else {
                 val peso = pesoStr.toFloat()
@@ -58,11 +58,12 @@ class MainActivity : AppCompatActivity() {
 
                 startActivity(intent)
 
-                println(resultado)
-                println("jonas vai ser programador " + altura)
+                // cores
+                // EditText background + icone
+                // gradiente + icone + titulo + descrição
             }
+
+
         }
-
-
     }
 }
