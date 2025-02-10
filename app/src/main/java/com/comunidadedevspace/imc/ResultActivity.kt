@@ -26,7 +26,7 @@ class ResultActivity : AppCompatActivity() {
 
         tvResult.text = result.toString()
 
-        val (classificacao, color) = if (result <= 18.5f){
+        val (classificacao, color) = if (result <= 18.5f) {
             "MAGREZA" to R.color.RED
         } else if (result > 18.5f && result <= 24.9f) {
             "NORMAL" to R.color.green
@@ -39,9 +39,6 @@ class ResultActivity : AppCompatActivity() {
         }
         tvClassificacao.text = classificacao
         tvClassificacao.setTextColor(ContextCompat.getColor(this, color))
-
-
-
 
 
     }
